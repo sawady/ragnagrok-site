@@ -10,18 +10,27 @@ function HeroSection() {
   );
 }
 
-function LearningPaths() {
+function Carriers() {
   return (
     <section>
-      <h2 className="text-2xl font-semibold mb-2">Learning Paths</h2>
+      <h2 className="text-2xl font-semibold mb-2">Carriers & Learning Paths</h2>
       <p className="text-gray-700 dark:text-gray-300 mb-2">
-        Explore some of our top advanced courses:
+        Want to become a Technical Leader or simply learn advanced topics? There
+        is a way. Explore some of our top courses:
       </p>
-      <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300">
-        <li>Rust for Backend Developers</li>
-        <li>System Design Mastery</li>
+      <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 mb-2">
+        <li>
+          Rust, Golang, Python, Java, PHP, Node.js and Haskell for Advanced
+          Backend Developers
+        </li>
+        <li>Master System Design</li>
+        <li>Advanced topics on Databases</li>
         <li>High-Performance Web Architectures</li>
       </ul>
+      <p className="text-gray-700 dark:text-gray-300">
+        We also offer a learning path designed to bridge the gap for
+        intermediate developers, ensuring everyone feels prepared to join.
+      </p>
     </section>
   );
 }
@@ -79,7 +88,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[64px] row-start-2 items-center sm:items-start w-full max-w-4xl">
         <HeroSection />
-        <LearningPaths />
+        <Carriers />
         <CommunityForum />
         <LiveSessions />
         <DemoProjects />

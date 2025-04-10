@@ -30,8 +30,8 @@ export function Navbar() {
           {/* Navigation Links */}
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
             <NavLink href="/learning">Learning</NavLink>
+            <NavLink href="/streaming">Streaming</NavLink>
             <NavLink href="/community">Community</NavLink>
-            <NavLink href="/live-sessions">Live Sessions</NavLink>
             <NavLink href="/consulting">Consulting</NavLink>
           </div>
 
