@@ -24,7 +24,7 @@ function Careers() {
           Backend Developers
         </li>
         <li>Master System Design</li>
-        <li>Advanced topics on Databases</li>
+        <li>Advanced topics in Databases</li>
         <li>High-Performance Web Architectures</li>
       </ul>
       <p className="text-gray-700 dark:text-gray-300">
