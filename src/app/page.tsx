@@ -10,10 +10,10 @@ function HeroSection() {
   );
 }
 
-function Carriers() {
+function Careers() {
   return (
     <section>
-      <h2 className="text-2xl font-semibold mb-2">Carriers & Learning Paths</h2>
+      <h2 className="text-2xl font-semibold mb-2">Careers & Learning Paths</h2>
       <p className="text-gray-700 dark:text-gray-300 mb-2">
         Want to become a Technical Leader or simply learn advanced topics? There
         is a way. Explore some of our top courses:
@@ -88,7 +88,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[64px] row-start-2 items-center sm:items-start w-full max-w-4xl">
         <HeroSection />
-        <Carriers />
+        <Careers />
         <CommunityForum />
         <LiveSessions />
         <DemoProjects />
