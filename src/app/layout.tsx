@@ -38,7 +38,9 @@ export default function RootLayout({
       >
         <Navbar />
         {/* Make the main content area grow to fill available space */}
-        <div className="flex-grow">{children}</div>
+        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 sm:p-0 font-[family-name:var(--font-geist-sans)]">
+          {children}
+        </div>
         {/* Footer remains the same, but flexbox in body pushes it down */}
         <footer className="text-center p-6 sm:p-8 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 mt-auto">
           © {new Date().getFullYear()} Ragnagrok
